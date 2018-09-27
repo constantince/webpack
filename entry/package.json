@@ -4,7 +4,8 @@
   "description": "my demo for webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo hello world"
+    "test": "webpack",
+    "build": "git add ."
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/constantince/webpack/issues"
   },
-  "homepage": "https://github.com/constantince/webpack#readme"
+  "homepage": "https://github.com/constantince/webpack#readme",
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1"
+  }
 }
