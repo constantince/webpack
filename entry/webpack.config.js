@@ -4,7 +4,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const webpack = require('webpack');
 const isProd = process.env.NODE_ENV;
-console.log(process.env.NODE_ENV);
 module.exports = {
 	mode: "development",//development|production|none
 	entry: {
@@ -20,10 +19,15 @@ module.exports = {
 			{
 			 test: /\.(c|sc)ss$/,
 			 use: [!isProd ? 'style-loader' : MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
-			 }, //按数组顺序编译 style-loader, css-loader
-			
+			}, //按数组顺序编译 style-loader, css-loader
+			{
+				test:/\.(js|jsx)$/,
+				use: ['babel-loader'],
+				exclude: /node_modules/ 
+			}
 		]
 	},
+	devtool: "source-map",//用源文件调试
 	devServer: {
 		port: 9000,
 		hot: true
