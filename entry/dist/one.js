@@ -81,42 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/one.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/a.css":
-/*!*******************!*\
-  !*** ./src/a.css ***!
-  \*******************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/a.css?");
-
-/***/ }),
-
-/***/ "./src/b.scss":
+/***/ "./src/one.js":
 /*!********************!*\
-  !*** ./src/b.scss ***!
+  !*** ./src/one.js ***!
   \********************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/b.scss?");
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _a_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./a.css */ \"./src/a.css\");\n/* harmony import */ var _a_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_a_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _b_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./b.scss */ \"./src/b.scss\");\n/* harmony import */ var _b_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_b_scss__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\n\r\nconsole.log('hello webpack! 000');\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\n//# sourceURL=webpack:///./src/one.js?");
 
 /***/ })
 
