@@ -4,13 +4,16 @@
   "description": "my demo for webpack",
   "main": "index.js",
   "scripts": {
-    "git" : "git add .&git status&git commit -m \"npm scripts commit by one touch :-) \"&git push origin master",
+    "git": "git add .&git status&git commit -m",
+    "postgit": "git push --all",
     "test": "webpack --watch --progress",
-    "build": "webpack --config prod.config.js"
+    "build": "webpack --config prod.config.js",
+    "go": "-m"
   },
   "devDependencies": {
     "babel-loader": "^7.1.5",
     "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.3",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
