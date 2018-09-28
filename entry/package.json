@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "git": "git add .&git status&git commit -m",
-    "postgit": "&git push origin master",
-    "test": "webpack --watch --progress",
-    "build": "webpack --config prod.config.js"
+    "postgit": "git push origin master",
+    "dev": "webpack-dev-server",
+    "build": "set NODE_ENV=development&webpack -p"
   },
   "devDependencies": {
     "babel-loader": "^7.1.5",
+    "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.0",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.3",
