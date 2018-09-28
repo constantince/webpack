@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "git": "git add .&git status&git commit -m",
-    "postgit": "git push --all",
+    "a": "git push --all",
     "test": "webpack --watch --progress",
     "build": "webpack --config prod.config.js"
   },
