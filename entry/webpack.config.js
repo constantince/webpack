@@ -4,6 +4,20 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const webpack = require('webpack');
 const isProd = process.env.NODE_ENV;
+
+class HelloPlugin {
+	constructor(options) {
+		this.options = options;
+	}
+
+	apply(compiler) {
+		compiler.hooks.done.tap('HelloPlugin', () => {
+			console.log('hello Plugin');
+			console.log(this.options);
+		})
+	}
+}
+
 module.exports = {
 	mode: "development",//development|production|none
 	entry: {
@@ -48,6 +62,8 @@ module.exports = {
 		}),
 		new webpack.NamedModulesPlugin(),
 		new webpack.HotModuleReplacementPlugin(),
+
+		new HelloPlugin({setting: true, hello: 'world'})
 
 	]
 };
