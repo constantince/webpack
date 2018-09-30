@@ -26,7 +26,8 @@ module.exports = {
 	},
 	output: {
 		path: path.resolve(__dirname, 'dist'),
-		filename: isProd ? '[name].[hash].js' : '[name].js'
+		filename: isProd ? '[name].[chunkhash].js' : '[name].js',
+		chunkFilename: '[name].bundle.js'//输出thunk文件配置项目
 		
 	},
 	module: {
@@ -47,6 +48,17 @@ module.exports = {
 		contentBase: './dist', //告诉dev 在哪里查找更新的文件
 		port: 9000,
 		hot: true
+	},
+	optimization: {
+		splitChunks: {//分隔代码配置
+			cacheGroups: {//
+				commons: {
+					name: 'commons',//公共文件名
+					chunks: 'initial',
+					minChunks: 2//最少共享次数
+				}
+			  }
+		}
 	},
 	plugins: [
 		new CleanWebpackPlugin(['dist']),

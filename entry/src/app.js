@@ -1,10 +1,11 @@
 import React from 'react';
 import {hot} from 'react-hot-loader';
 import Apple from './test.js';
+import PineApple from './pineapple';
 const App = () => {
 	return (<div>
 		<header>i am header</header>
-		<h1>Hello React! <Apple /></h1>
+		<h1>Hello React! <Apple /><PineApple /></h1>
 	</div>);
 };
 

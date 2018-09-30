@@ -1,6 +1,6 @@
 import React from 'react';
 import PineApple from './pineapple';
-
-const Apple = () => <h2>I am a apple 99900<PineApple /></h2>;
-
+import { canThisFileSplit } from './split';
+const Apple = () => <h2>I am a apple 99901110<PineApple /></h2>;
+canThisFileSplit();
 export default Apple;
