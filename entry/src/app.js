@@ -1,9 +1,12 @@
 import React from 'react';
-
-
+import {hot} from 'react-hot-loader';
+import Apple from './test.js';
 const App = () => {
-	return <h1>Hello React!</h1>;
+	return (<div>
+		<header>i am header</header>
+		<h1>Hello React! <Apple /></h1>
+	</div>);
 };
 
 
-export default App;
+export default hot(module)(App);

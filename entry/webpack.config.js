@@ -26,8 +26,8 @@ module.exports = {
 	},
 	output: {
 		path: path.resolve(__dirname, 'dist'),
-		//filename: isProd ? '[name].[hash].js' : '[name].js'
-		publicPath: 'http://cdn.example.com/assets/[hash]/'
+		filename: isProd ? '[name].[hash].js' : '[name].js'
+		
 	},
 	module: {
 		rules: [
@@ -44,6 +44,7 @@ module.exports = {
 	},
 	devtool: "source-map",//用源文件调试
 	devServer: {
+		contentBase: './dist', //告诉dev 在哪里查找更新的文件
 		port: 9000,
 		hot: true
 	},
