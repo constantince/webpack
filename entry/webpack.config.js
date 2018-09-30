@@ -26,7 +26,8 @@ module.exports = {
 	},
 	output: {
 		path: path.resolve(__dirname, 'dist'),
-		filename: isProd ? '[name].[hash].js' : '[name].js'
+		//filename: isProd ? '[name].[hash].js' : '[name].js'
+		publicPath: 'http://cdn.example.com/assets/[hash]/'
 	},
 	module: {
 		rules: [
