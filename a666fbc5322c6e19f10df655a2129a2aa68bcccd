@@ -1,0 +1,89 @@
+[33mcommit 970163f8c577ab85735a0e27fdd9e1777185119b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: constantince <alberteinstein007@126.com>
+Date:   Sun Sep 30 15:33:41 2018 +0800
+
+    add code split func
+
+[33mcommit ead49032526859c529b842f7383bc03b8261cc6d[m
+Author: constantince <alberteinstein007@126.com>
+Date:   Sun Sep 30 14:44:22 2018 +0800
+
+    add new module react-hot-loader
+
+[33mcommit 11f05ae860ee1f866b43a7e04576a98c0e6721a0[m
+Author: constantince <alberteinstein007@126.com>
+Date:   Sun Sep 30 14:25:34 2018 +0800
+
+    use cnd path
+
+[33mcommit bd8b16f7623a3445a50e6282c34df6b7d94a6609[m
+Author: constantince <alberteinstein007@126.com>
+Date:   Sat Sep 29 16:20:50 2018 +0800
+
+    add my own webpack plugin
+
+[33mcommit f9106d7846fcad79f851a873d9ca660a597897be[m
+Author: constantince <alberteinstein007@126.com>
+Date:   Fri Sep 28 17:22:47 2018 +0800
+
+    build environment of react
+
+[33mcommit a666fbc5322c6e19f10df655a2129a2aa68bcccd[m
+Author: constantince <alberteinstein007@126.com>
+Date:   Fri Sep 28 15:45:29 2018 +0800
+
+    add the HMR plugin
+
+[33mcommit 88e539d3f477e8368535d9456afb085184c02c08[m
+Author: constantince <alberteinstein007@126.com>
+Date:   Fri Sep 28 14:14:41 2018 +0800
+
+    how the command postgit work
+
+[33mcommit 50ceb2b9fbf0bf0c1ee9160d800a342efa2c4dd2[m
+Author: constantince <alberteinstein007@126.com>
+Date:   Fri Sep 28 14:12:52 2018 +0800
+
+    how the command postgit work
+
+[33mcommit 7c5cc670a474710c51db8579515c9f61a4697856[m
+Author: constantince <alberteinstein007@126.com>
+Date:   Fri Sep 28 14:12:14 2018 +0800
+
+    how the command postgit work
+
+[33mcommit 34b1b7df37688f68810256ecf07edf05e2c2eacf[m
+Author: constantince <alberteinstein007@126.com>
+Date:   Fri Sep 28 14:10:21 2018 +0800
+
+    remove package.json from index tress
+
+[33mcommit 516b1fd052fbd5e22951671d12a471e931fa2a4c[m
+Author: constantince <alberteinstein007@126.com>
+Date:   Fri Sep 28 14:07:13 2018 +0800
+
+    delete .log&package.json files
+
+[33mcommit bbd55a074349f8df4e81ee1b1824cd545bf561ba[m
+Author: constantince <alberteinstein007@126.com>
+Date:   Fri Sep 28 14:03:45 2018 +0800
+
+    test for npm scirpt
+
+[33mcommit 526482a14e6d28fadc9e85731c74b48f1374a95b[m
+Author: constantince <alberteinstein007@126.com>
+Date:   Fri Sep 28 10:52:11 2018 +0800
+
+    npm scripts commit by one touch :-)
+
+[33mcommit bf4edda31da677e24248e3588828e12f4c82d194[m
+Author: constantince <alberteinstein007@126.com>
+Date:   Thu Sep 27 18:56:59 2018 +0800
+
+    submit first new bundle file
+
+[33mcommit 51c1c7203a307933cb283a2899ba2bbe599c5b86[m
+Author: constantince <alberteinstein007@126.com>
+Date:   Thu Sep 27 18:29:47 2018 +0800
+
+    build first stracue
