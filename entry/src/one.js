@@ -1,3 +1,3 @@
 import PineApple from './pineapple';
 export default PineApple;
-console.log('hello webpack from one.js');
+console.log('hello webpack from one.js 。');
